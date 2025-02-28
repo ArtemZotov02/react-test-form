@@ -1,0 +1,36 @@
+.container {
+  width: 70%;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  input, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  button {
+    padding: 10px;
+    background-color: #47AA52;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    &:hover {
+      background-color: #3a8f44;
+    }
+  }
+
+  .error {
+    color: red;
+  }
+
+  .success {
+    color: green;
+  }
+}

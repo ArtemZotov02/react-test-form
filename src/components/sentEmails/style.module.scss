@@ -1,0 +1,45 @@
+.emailsContainer {
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.error {
+  color: red;
+}
+
+.emailsTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.emailsTable th,
+.emailsTable td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.emailsTable th {
+  background: #f0f0f0;
+}
+
+.pagination {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pagination button {
+  padding: 10px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  background-color: #ccc;
+  cursor: default;
+}
