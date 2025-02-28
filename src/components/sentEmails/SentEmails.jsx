@@ -4,7 +4,7 @@ import style from "./style.module.scss";
 export default function SentEmails({emails, count, next, previous, error, loading, fetchEmails }) {
   return (
     <div className={style.emailsContainer}>
-      <h2>Emails:</h2>
+      <h2>Your emails:</h2>
 
       {error && <p className={style.error}>{error}</p>}
       {loading && <p>Loading...</p>}
