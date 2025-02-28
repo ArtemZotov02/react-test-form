@@ -19,6 +19,12 @@
     border-radius: 4px;
   }
 
+  textarea {
+    max-width: 100%;
+    min-height: 100px;
+    height: 100%;
+  }
+
   button {
     padding: 10px;
     background-color: #47AA52;
